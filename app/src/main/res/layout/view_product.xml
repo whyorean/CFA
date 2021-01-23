@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/icon_size_cluster"
+        android:layout_height="@dimen/icon_size_cluster"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txt_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_icon"
+        android:layout_alignStart="@id/img_icon"
+        android:layout_alignEnd="@id/img_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.CapFront.Line2"
+        android:textColor="?android:textColorPrimary"
+        tools:text="Product Name" />
+
+    <TextView
+        android:id="@+id/txt_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_line_1"
+        android:layout_alignStart="@id/txt_line_1"
+        android:layout_alignEnd="@id/txt_line_1"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.CapFront.Line3"
+        tools:text="Price" />
+
+    <TextView
+        android:id="@+id/txt_line_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_line_2"
+        android:layout_alignStart="@id/txt_line_2"
+        android:layout_alignEnd="@id/txt_line_2"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.CapFront.Line3"
+        tools:text="Category" />
+</RelativeLayout>

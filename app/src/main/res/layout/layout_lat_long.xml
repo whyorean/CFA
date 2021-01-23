@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_flipper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_medium"
+    android:layout_marginEnd="@dimen/margin_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Action"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/action_grant_perm" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:divider="@drawable/divider"
+        android:gravity="center"
+        android:showDividers="middle">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_small"
+            android:textAppearance="@style/TextAppearance.CapFront.SubTitle.Alt"
+            tools:text="Lat : 12.3788" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_small"
+            android:textAppearance="@style/TextAppearance.CapFront.SubTitle.Alt"
+            tools:text="Long : 14.3838" />
+    </LinearLayout>
+
+</ViewFlipper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorAccent</color>
+    <color name="colorPrimaryDark">@color/colorAccent</color>
+
+    <color name="colorAccent">#279b37</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorPrimaryAlt">#969696</color>
+    <color name="colorShimmer">#969696</color>
+
+    <color name="colorScrim">#33000000</color>
+    <color name="colorScrimAlt">#CC000000</color>
+    <color name="colorScrimAccent">#33279b37</color>
+    <color name="colorTransparent">#00000000</color>
+</resources>

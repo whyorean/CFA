@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CapFront</string>
+    <string name="action_grant_perm">Grant Permission</string>
+</resources>

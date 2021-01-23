@@ -1,0 +1,104 @@
+<resources>
+    <!-- Title Styles -->
+
+    <style name="CapFrontTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">12sp</item>
+        <item name="autoSizeStepGranularity">1sp</item>
+        <item name="autoSizePresetSizes">@array/auto_size_text_sizes</item>
+    </style>
+
+    <style name="CapFrontTextStyle.Title" parent="CapFrontTextStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="autoSizeMaxTextSize">20sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Title</item>
+    </style>
+
+    <style name="CapFrontTextStyle.Title.Primary" parent="CapFrontTextStyle.Title">
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Title.Primary</item>
+    </style>
+
+    <style name="CapFrontTextStyle.Title.Secondary" parent="CapFrontTextStyle.Title">
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Title.Secondary</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/gilroy_extra_bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.Title.Primary" parent="TextAppearance.CapFront.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.Title.Secondary" parent="TextAppearance.CapFront.Title.Primary">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+
+
+    <!--  Subtitle Styles  -->
+
+    <style name="CapFrontTextStyle.Subtitle" parent="CapFrontTextStyle">
+        <item name="autoSizeMaxTextSize">16sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.SubTitle</item>
+    </style>
+
+    <style name="CapFrontTextStyle.Subtitle.Secondary" parent="CapFrontTextStyle">
+        <item name="autoSizeMaxTextSize">16sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Line1</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.SubTitle" parent="TextAppearance.CapFront.Title">
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.SubTitle.Alt" parent="TextAppearance.CapFront.Title">
+        <item name="android:letterSpacing">0.0125</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Line Styles -->
+    <style name="CapFrontTextStyle.Line1" parent="CapFrontTextStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="autoSizeMaxTextSize">14sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Line1</item>
+    </style>
+
+    <style name="CapFrontTextStyle.Line2" parent="CapFrontTextStyle.Line1">
+        <item name="autoSizeMaxTextSize">12sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Line2</item>
+    </style>
+
+    <style name="CapFrontTextStyle.Line3" parent="CapFrontTextStyle.Line1">
+        <item name="autoSizeMaxTextSize">10sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.CapFront.Line3</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.Line1" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.Line2" parent="TextAppearance.CapFront.Line1">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.CapFront.Line3" parent="TextAppearance.CapFront.Line2">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+    </style>
+</resources>
